@@ -33,7 +33,7 @@ jobs:
       with:
         node-version: '18'
         cache: 'npm'
-        cache-dependency-path: './my-devops-webapp/package-lock.json' 
+        cache-dependency-path: './package-lock.json' 
     
     - name: Install dependencies
       run: npm ci
@@ -54,7 +54,7 @@ jobs:
     
     defaults:
       run:
-        working-directory: ./azure/project-2-cicd-pipeline 
+        working-directory: ./my-devops-webapp
     
     steps:
     - name: Checkout code
