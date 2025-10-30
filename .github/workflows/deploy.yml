@@ -54,7 +54,7 @@ jobs:
     
     defaults:
       run:
-        working-directory: ./my-devops-webapp
+        working-directory: .#/my-devops-webapp
     
     steps:
     - name: Checkout code
