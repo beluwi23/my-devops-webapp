@@ -1,4 +1,4 @@
-  // For Monitoring#
+ // For Monitoring#
 
 
 const express = require('express');
@@ -20,7 +20,7 @@ app.use((req, res, next) => {
 app.get('/', (req, res) => {
   res.send(`
     <h1>🚀 My DevOps Web App</h1>
-    <p>This app was deployed automatically!</p>
+    <p>My Updated DevOps Web App - Auto-deployed!</p>
     <p>Current time: ${new Date().toLocaleString()}</p>
     <p>Total requests: ${requestCount}</p>
   `);
